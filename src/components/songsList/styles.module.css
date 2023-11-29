@@ -1,0 +1,99 @@
+.first {
+    flex: 1;
+}
+
+.second {
+    flex: 4;
+    border-left: 0.5px solid black;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+}
+
+.top {
+    display: flex;
+}
+
+.fullWidthTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.fullWidthTable th,
+.fullWidthTable td {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 15px;
+    text-align: left;
+}
+.addsong{
+    margin-top: 40px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+.addButton{
+    padding: 5px;
+    border: none;
+    border-radius: 2px;
+    background-color: #FDB927;
+    color: #000000;
+    cursor: pointer;
+}
+.logo{
+    color: #552583;
+    font-weight: 700;
+    font-size: 36px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.tableContainer {
+  max-height: 800px;
+  overflow-y: auto;
+  height: 550px;
+}
+.container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.logout {
+    display: flex;
+    align-items: center;
+    margin-top: auto;
+    cursor: pointer;
+}
+.firstdata{
+    border: none;
+    flex-direction: row;
+}
+.controlsWrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .currentSongInfo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .currentSongInfo img {
+    width: 30px;
+    height: 30px;
+    margin-right: 1rem;
+  }  
+  .audioControls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    background-color: #f0f0f0;
+  }
+.subpart{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  

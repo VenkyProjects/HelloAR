@@ -1,0 +1,90 @@
+
+.modal{
+    display: flex;
+    flex-direction: column;
+    max-width: 600px; /* Set your desired maximum width */
+    margin: auto; /* Center the modal horizontally */
+    border: 1px solid #ccc; /* Add a border */
+    background-color: white;
+    margin-top: 100px;
+}
+.form_row {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+.modal_footer{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+    border-top: 0.5px solid rgb(133, 131, 131);
+}
+.modal_footer button {
+    margin-left: 10px;
+    cursor: pointer;
+}
+.close{
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+h2 {
+  margin-bottom: 10px;
+}
+
+label {
+  width: 120px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+input {
+  flex: 1;
+  padding:8px;
+}
+
+button {
+  margin-right: 10px;
+}
+p{
+    font-weight: 700;
+    font-size: 16px;
+}
+.fileInput {
+    cursor: pointer;
+}
+
+.modal_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 0.5px solid rgb(133, 131, 131);
+    /* background-color: #f2f2f2; */
+  }
+.form{
+    padding: 10px;
+}
+.addbutton{
+  margin-top: 10px;
+  color: white;
+  border: none;
+  padding: 8px;
+  width: 60px;
+  /* padding:5px, 16px, 5px, 16px; */
+  background-color: #1890FF;
+}
+.cancelbutton{
+  margin-top: 10px;
+  color: #000000;
+  border: none;
+  padding: 8px;
+  width: 60px;
+  /* padding:5px, 16px, 5px, 16px; */
+  background-color: #eaeaea;
+}
+.addsong{
+  font-size: 16px;
+  font-weight: 700;
+  color: #000000;
+}
